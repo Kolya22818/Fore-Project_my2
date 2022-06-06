@@ -486,7 +486,7 @@ body {
     position: absolute;
     font-family: 'Amatic SC', cursive;
     font-size: 65px;
-    bottom: 3100px;
+    bottom: 2600px;
     left: 839px;
 }
 
@@ -603,21 +603,21 @@ body {
 
 .Child {
     margin-left: 295px;
-    margin-bottom: -90px;
+    margin-bottom: -125px;
     width: 490px;
     height: 457px;
 }
 
 .about_foto {
     margin-left: 299px;
-    margin-top: 110px;
+    margin-top: 143px;
     font-size: 12px;
     font-family: 'PT Sans', sans-serif;
 }
 
 .header2 {
     margin-left: 1100px;
-    margin-top: -720px;
+    margin-top: -620px;
     font-size: 50px;
     color: #D96251;
     font-family: 'Amatic SC', cursive;
@@ -632,19 +632,18 @@ body {
     word-wrap: break-word;
     text-align-last: left;
     margin-right: 270px;
-    margin-top: 5px;
+    margin-top: 40px;
     font-family: 'PT Sans', sans-serif;
 }
 
 .fotball_children {
-    margin-left: 970px;
-    margin-bottom: 750px;
-    text-align: center;
+    margin-left: 1000px;
+    margin-bottom: 880px;
     z-index: 0;
 }
 
 .hands_children {
-    margin-bottom: 700px;
+    margin-bottom: 860px;
     margin-left: -10px;
     z-index: 1;
 }
@@ -654,11 +653,16 @@ body {
     z-index: 2;
 }
 .fotball_children, .hands_children, .simple_children {
-    margin-bottom: 500px;
+     margin-top: -120px; 
 }
 .border1 {
     margin-left: 290px;
-    margin-top: -195px;
+    margin-top: -330px;
     width: 503px;
     height: 492px;
+}
+.footbal_1 {
+    margin-left: 1000px;
+    margin-bottom: -50px;
+    background-color: green;
 }
