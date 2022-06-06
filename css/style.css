@@ -327,13 +327,16 @@ body {
     font-size: 20px;
     margin-left: -150px;
 }
+
 .h8 {
     font-size: 30px;
     font-family: 'Amatic SC', cursive;
 }
+
 .h9 {
     font-family: 'Amatic SC', cursive;
 }
+
 .text-about-3 {
     display: block;
     margin-left: 1220px;
@@ -357,52 +360,62 @@ body {
     margin-top: 299px;
     margin-left: 280px; */
 }
+
 .d {
     /* display: block; 
      margin-top: -540px; 
      margin-left: 620px;  */
 }
+
 .o {
     /* display: block; */
     /* margin-top: -440px; */
     /* margin-left: 1010px; */
     margin-right: 200px;
 }
+
 .b {
     margin-top: 300px;
 }
-.d, .o, .b, .x {
+
+.d,
+.o,
+.b,
+.x {
     margin-left: 200px;
     margin-bottom: 10px;
     grid-column: 4 / -110;
-    grid-row: 1; 
+    grid-row: 1;
     position: relative;
     width: 12%;
 
 }
+
 .callback2 {
 
     margin-right: 1px;
     padding: 20px;
-    background-color:#00FF00;
+    background-color: #00FF00;
     border-radius: 100px;
     color: #fff;
     text-decoration: none;
     box-shadow: 0 4px 6px rgba(255, 127, 80, .2);
 }
+
 .callback2:hover {
     background: #00FF00;
     color: #fff;
-    background-image:-webkit-linear-gradient(top, #D25068, #F66C7B);
-    background-image:-moz-linear-gradient(top, #D25068, #F66C7B);
-    background-image:-ms-linear-gradient(top, #D25068, #F66C7B);
-    background-image:-o-linear-gradient(top, #D25068, #F66C7B);
-    background-image:linear-gradient(top, #D25068, #F66C7B);
+    background-image: -webkit-linear-gradient(top, #D25068, #F66C7B);
+    background-image: -moz-linear-gradient(top, #D25068, #F66C7B);
+    background-image: -ms-linear-gradient(top, #D25068, #F66C7B);
+    background-image: -o-linear-gradient(top, #D25068, #F66C7B);
+    background-image: linear-gradient(top, #D25068, #F66C7B);
 }
+
 .button_inline {
     margin-right: 1px;
     padding: 20px;
-    background-color:chocolate;
+    background-color: chocolate;
     border-radius: 100px;
     color: #fff;
     display: block;
@@ -412,15 +425,17 @@ body {
     margin: -680px 150px 800px;
     font-size: 20px;
 }
+
 .button_inline:hover {
     background: chocolate;
     color: #fff;
-    background-image:-webkit-linear-gradient(top, blue, #F66C7B);
-    background-image:-moz-linear-gradient(top, #D25068, #F66C7B);
-    background-image:-ms-linear-gradient(top, #D25068, #F66C7B);
-    background-image:-o-linear-gradient(top, #D25068, #F66C7B);
-    background-image:linear-gradient(top, green, #F66C7B);
+    background-image: -webkit-linear-gradient(top, blue, #F66C7B);
+    background-image: -moz-linear-gradient(top, #D25068, #F66C7B);
+    background-image: -ms-linear-gradient(top, #D25068, #F66C7B);
+    background-image: -o-linear-gradient(top, #D25068, #F66C7B);
+    background-image: linear-gradient(top, green, #F66C7B);
 }
+
 .famile {
     position: absolute;
     right: 0;
@@ -429,6 +444,7 @@ body {
     width: 10%;
     z-index: 1;
 }
+
 .kreslo {
     position: absolute;
     right: 0;
@@ -437,6 +453,7 @@ body {
     width: 10%;
     z-index: 2;
 }
+
 .notebook {
     position: absolute;
     right: 0;
@@ -445,6 +462,7 @@ body {
     width: 10%;
     z-index: 3;
 }
+
 .mony {
     position: absolute;
     right: 0;
@@ -453,6 +471,7 @@ body {
     width: 10%;
     z-index: 4;
 }
+
 .mony2 {
     position: absolute;
     right: 0;
@@ -461,16 +480,18 @@ body {
     width: 8%;
     z-index: 5;
 }
+
 .text-h9 {
-    display: block;    
+    display: block;
     position: absolute;
     font-family: 'Amatic SC', cursive;
     font-size: 65px;
-    bottom: 500px;
-    left: 839px;    
+    bottom: 3100px;
+    left: 839px;
 }
+
 .text-h11 {
-    display: block;    
+    display: block;
     position: absolute;
     font-family: 'Amatic SC', cursive;
     text-decoration: underline solid #FFD75C;
@@ -478,8 +499,9 @@ body {
     left: 190px;
     top: 2250px;
 }
+
 .text-h12 {
-    display: block;    
+    display: block;
     position: absolute;
     font-family: 'Amatic SC', cursive;
     text-decoration: underline solid #FFD75C;
@@ -487,8 +509,9 @@ body {
     left: 640px;
     top: 2250px;
 }
+
 .text-h13 {
-    display: block;    
+    display: block;
     position: absolute;
     font-family: 'Amatic SC', cursive;
     text-decoration: underline solid #FFD75C;
@@ -496,8 +519,9 @@ body {
     left: 1100px;
     top: 2250px;
 }
+
 .text-h14 {
-    display: block;    
+    display: block;
     position: absolute;
     font-family: 'Amatic SC', cursive;
     text-decoration: underline solid #FFD75C;
@@ -505,8 +529,9 @@ body {
     left: 1520px;
     top: 2250px;
 }
+
 .text-h15_for_h11 {
-    display: block;    
+    display: block;
     position: absolute;
     font-family: 'PT Sans', sans-serif;
     line-height: 1.6;
@@ -514,8 +539,9 @@ body {
     left: 190px;
     top: 2350px;
 }
+
 .text-h15_for_h12 {
-    display: block;    
+    display: block;
     position: absolute;
     font-family: 'PT Sans', sans-serif;
     line-height: 1.6;
@@ -523,8 +549,9 @@ body {
     left: 650px;
     top: 2350px;
 }
+
 .text-h15_for_h13 {
-    display: block;    
+    display: block;
     position: absolute;
     font-family: 'PT Sans', sans-serif;
     line-height: 1.6;
@@ -532,8 +559,9 @@ body {
     left: 1095px;
     top: 2350px;
 }
+
 .text-h15_for_h14 {
-    display: block;    
+    display: block;
     position: absolute;
     font-family: 'PT Sans', sans-serif;
     line-height: 1.6;
@@ -541,14 +569,96 @@ body {
     left: 1525px;
     top: 2350px;
 }
+
 .button_inline2 {
-    position:relative;
+    position: relative;
     left: 850px;
-    top:180px;
+    top: 100px;
+    width: 246px;
+    height: 50px;
     margin-right: 1px;
-    padding: 20px;
-    background-color:chocolate;
+    padding: 17px;
+    background-color: chocolate;
     border-radius: 100px;
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
+}
+
+.rectangle_foto {
+    background: url(../img/Rectangle\ 3.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 110px;
+    margin-top: 200px;
+}
+
+.about_rectangle {
+    display: block;
+    margin-top: -800px;
+    margin-left: 470px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+}
+
+.Child {
+    margin-left: 295px;
+    margin-bottom: -90px;
+    width: 490px;
+    height: 457px;
+}
+
+.about_foto {
+    margin-left: 299px;
+    margin-top: 110px;
+    font-size: 12px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.header2 {
+    margin-left: 1100px;
+    margin-top: -720px;
+    font-size: 50px;
+    color: #D96251;
+    font-family: 'Amatic SC', cursive;
+}
+
+.my_text-p {
+    display: table;
+    margin: 0 auto;
+    /* для центрирования display: table; не нужно указывать ширину блока, она рассчитывается самостоятельно */
+    white-space: pre-line;
+    /* не нужен <br> */
+    word-wrap: break-word;
+    text-align-last: left;
+    margin-right: 270px;
+    margin-top: 5px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.fotball_children {
+    margin-left: 970px;
+    margin-bottom: 750px;
+    text-align: center;
+    z-index: 0;
+}
+
+.hands_children {
+    margin-bottom: 700px;
+    margin-left: -10px;
+    z-index: 1;
+}
+
+.simple_children {
+    margin-bottom: 850px;
+    z-index: 2;
+}
+.fotball_children, .hands_children, .simple_children {
+    margin-bottom: 500px;
+}
+.border1 {
+    margin-left: 290px;
+    margin-top: -195px;
+    width: 503px;
+    height: 492px;
 }
