@@ -279,20 +279,21 @@ body {
 }
 
 .Union {
-    background-image: url(../img/Union.png);
+    background-image: url(../img/Union21.png);
+    background-repeat: no-repeat;
     margin-left: calc(190% - 200vw);
-    margin: -750px 1100px 800px;
+    margin: -790px 1150px 800px;
 }
 
 .Home {
     margin-left: calc(190% - 200vw);
-    margin: -950px 1300px 800px;
+    margin: -980px 1340px 800px;
     color: orange;
 }
 
 .place {
     margin-left: calc(190% - 200vw);
-    margin: -1442px 1159px 800px;
+    margin: -1482px 1200px 800px;
 }
 
 .Pin2 {
@@ -345,7 +346,7 @@ body {
     font-family: 'Amatic SC', cursive;
 }
 
-#rectangle2 {
+/* #rectangle2 {
     display: block;
     width: 485px;
     height: 233px;
@@ -353,7 +354,7 @@ body {
     background: #fff;
     margin-left: 1170px;
     margin-top: -890px;
-}
+} */
 
 .x {
     /* display: block;
@@ -375,24 +376,24 @@ body {
 }
 
 .b {
-    margin-top: 300px;
+    margin-top: -900px;
 }
 
 .d,
 .o,
 .b,
 .x {
-    margin-left: 200px;
-    margin-bottom: 10px;
-    grid-column: 4 / -110;
+    margin-top: 100px;
+    margin-left: calc(290% - 200vw);
+    margin: -270px 150px 800px;
+    grid-column: 3 / -110;
     grid-row: 1;
-    position: relative;
+    /* position: relative; */
     width: 12%;
 
 }
 
 .callback2 {
-
     margin-right: 1px;
     padding: 20px;
     background-color: #00FF00;
@@ -420,9 +421,9 @@ body {
     color: #fff;
     display: block;
     box-shadow: 0 4px 6px rgba(255, 127, 80, .2);
-    margin-bottom: -500px;
+    margin-top: 100px;
     margin-left: calc(290% - 200vw);
-    margin: -680px 150px 800px;
+    margin: -1580px 150px 800px;
     font-size: 20px;
 }
 
@@ -439,8 +440,8 @@ body {
 .famile {
     position: absolute;
     right: 0;
-    top: 1999px;
-    right: 1600px;
+    bottom: 4350px;
+    right: 1670px;
     width: 10%;
     z-index: 1;
 }
@@ -448,7 +449,7 @@ body {
 .kreslo {
     position: absolute;
     right: 0;
-    top: 1999px;
+    top: 2270px;
     right: 1100px;
     width: 10%;
     z-index: 2;
@@ -457,8 +458,8 @@ body {
 .notebook {
     position: absolute;
     right: 0;
-    top: 1999px;
-    right: 700px;
+    top: 2270px;
+    right:600px;
     width: 10%;
     z-index: 3;
 }
@@ -466,8 +467,8 @@ body {
 .mony {
     position: absolute;
     right: 0;
-    top: 1990px;
-    right: 280px;
+    top: 2170px;
+    left: 1460px;
     width: 10%;
     z-index: 4;
 }
@@ -475,7 +476,7 @@ body {
 .mony2 {
     position: absolute;
     right: 0;
-    top: 2000px;
+    top: 2170px;
     right: 300px;
     width: 8%;
     z-index: 5;
@@ -486,8 +487,8 @@ body {
     position: absolute;
     font-family: 'Amatic SC', cursive;
     font-size: 65px;
-    bottom: 2800px;
-    left: 839px;
+    bottom: 4590px;
+    left: 990px;
 }
 
 .text-h11 {
@@ -497,7 +498,7 @@ body {
     text-decoration: underline solid #FFD75C;
     font-size: 30px;
     left: 190px;
-    top: 2250px;
+    top: 2480px;
 }
 
 .text-h12 {
@@ -507,7 +508,7 @@ body {
     text-decoration: underline solid #FFD75C;
     font-size: 30px;
     left: 640px;
-    top: 2250px;
+    top: 2480px;
 }
 
 .text-h13 {
@@ -517,7 +518,7 @@ body {
     text-decoration: underline solid #FFD75C;
     font-size: 30px;
     left: 1100px;
-    top: 2250px;
+    top: 2480px;
 }
 
 .text-h14 {
@@ -527,7 +528,7 @@ body {
     text-decoration: underline solid #FFD75C;
     font-size: 30px;
     left: 1520px;
-    top: 2250px;
+    top: 2480px;
 }
 
 .text-h15_for_h11 {
@@ -537,7 +538,7 @@ body {
     line-height: 1.6;
     font-size: 15px;
     left: 190px;
-    top: 2350px;
+    top: 2580px;
 }
 
 .text-h15_for_h12 {
@@ -547,7 +548,7 @@ body {
     line-height: 1.6;
     font-size: 15px;
     left: 650px;
-    top: 2350px;
+    top: 2580px;
 }
 
 .text-h15_for_h13 {
@@ -557,7 +558,7 @@ body {
     line-height: 1.6;
     font-size: 15px;
     left: 1095px;
-    top: 2350px;
+    top: 2580px;
 }
 
 .text-h15_for_h14 {
@@ -567,13 +568,13 @@ body {
     line-height: 1.6;
     font-size: 15px;
     left: 1525px;
-    top: 2350px;
+    top: 2580px;
 }
 
 .button_inline2 {
     position: relative;
     left: 850px;
-    top: 100px;
+    top: 170px;
     width: 246px;
     height: 50px;
     margin-right: 1px;
@@ -658,33 +659,41 @@ body {
     z-index: 2;
     transform: rotate(-5deg);
 }
-.fotball_children, .hands_children, .simple_children {
-     margin-top: -120px; 
+
+.fotball_children,
+.hands_children,
+.simple_children {
+    margin-top: -120px;
 }
+
 .border1 {
     margin-left: 290px;
     margin-top: -355px;
     width: 503px;
     height: 492px;
 }
+
 .border2 {
     margin-left: 1000px;
     margin-top: -1180px;
     width: 200px;
     height: 196px;
 }
+
 .head_1 {
     margin-left: 190px;
     margin-top: -155px;
 }
+
 .children_1 {
     display: block;
     margin-left: 400px;
     margin-top: -250px;
     transform: rotate(-5deg);
 }
+
 .byton {
-        position: relative;
+    position: relative;
     left: 330px;
     top: 100px;
     top: 1px;
@@ -697,6 +706,7 @@ body {
     color: #fff;
     font-size: 15px;
 }
+
 .text_about-children {
     display: table;
     margin: 0 auto;
@@ -707,10 +717,11 @@ body {
     text-align-last: left;
     margin-top: 200px;
     margin-left: 450px;
-    font-size: 60px ;
+    font-size: 60px;
     font-family: 'Amatic SC', cursive;
-    
+
 }
+
 .paragraf {
     display: table;
     margin: 0 auto;
@@ -721,32 +732,37 @@ body {
     text-align-last: left;
     margin-top: 20px;
     margin-left: 450px;
-    font-size: 20px ;
+    font-size: 20px;
     font-family: 'PT Sans', sans-serif;
 }
+
 .player {
     margin-top: -500px;
     margin-left: 1140px;
     border-radius: 700px;
     border-radius: 100px;
 }
+
 .O_1 {
     display: block;
     margin-top: -502px;
     margin-left: 1137px;
 }
+
 .Union3 {
     display: block;
     margin-left: 950px;
     margin-top: -220px;
 }
+
 .Ellipse {
     display: block;
     margin-left: 1150px;
     margin-top: -400px;
     background-color: #fff;
 }
-.text_for_Union3{
+
+.text_for_Union3 {
     display: table;
     margin: 0 auto;
     /* для центрирования display: table; не нужно указывать ширину блока, она рассчитывается самостоятельно */
@@ -754,65 +770,74 @@ body {
     /* не нужен <br> */
     word-wrap: break-word;
     text-align-last: left;
-    font-size: 15px ;
+    font-size: 15px;
     font-family: 'PT Sans', sans-serif;
-    margin-right: 700px;
+    margin-right: 730px;
     margin-top: -160px;
 }
+
 .crafting {
     display: block;
     margin-top: 700px;
     margin-left: 100px;
     border: 2px solid #000;
 }
+
 .squares {
     width: 263px;
-	height: 252px;
+    height: 252px;
     background-color: #fff;
     border: 2px solid black;
     margin-left: 550px;
     margin-top: -256px;
 }
+
 .craft_2 {
     width: 263px;
-	height: 252px;
+    height: 252px;
     background-color: #fff;
     border: 2px solid black;
     margin-left: 1000px;
     margin-top: -256px;
 }
+
 .craft_3 {
     width: 263px;
-	height: 252px;
+    height: 252px;
     background-color: #fff;
     border: 2px solid black;
     margin-left: 1400px;
     margin-top: -256px;
 }
+
 .text-about_craft_all {
     display: block;
     margin-left: 100px;
     font-size: 19px;
     font-family: 'PT Sans', sans-serif;
 }
+
 .text-about_craft {
     display: block;
     margin-left: 170px;
     font-size: 14px;
     font-family: 'PT Sans', sans-serif;
 }
+
 .text-about_craft_all {
     display: block;
     margin-left: 100px;
     font-size: 19px;
     font-family: 'PT Sans', sans-serif;
 }
+
 .text-about_craft {
     display: block;
     margin-left: 170px;
     font-size: 14px;
     font-family: 'PT Sans', sans-serif;
 }
+
 .text-about_craft_2 {
     display: block;
     margin-top: -50px;
@@ -820,12 +845,14 @@ body {
     font-size: 19px;
     font-family: 'PT Sans', sans-serif;
 }
+
 .text-about_craft3 {
     display: block;
     margin-left: 630px;
     font-size: 14px;
     font-family: 'PT Sans', sans-serif;
 }
+
 .text-about_craft_all3 {
     display: block;
     margin-top: -45px;
@@ -833,12 +860,14 @@ body {
     font-size: 19px;
     font-family: 'PT Sans', sans-serif;
 }
+
 .text-about_craft4 {
     display: block;
     margin-left: 1080px;
     font-size: 14px;
     font-family: 'PT Sans', sans-serif;
 }
+
 .text-about_craft_all4 {
     display: block;
     margin-top: -45px;
@@ -846,9 +875,175 @@ body {
     font-size: 19px;
     font-family: 'PT Sans', sans-serif;
 }
+
 .text-about_craft5 {
     display: block;
     margin-left: 148px;
     font-size: 14px;
     font-family: 'PT Sans', sans-serif;
+}
+
+.boton {
+    position: relative;
+    left: 780px;
+    bottom: -100px;
+    width: 246px;
+    height: 50px;
+    padding: 17px;
+    background-color: chocolate;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 15px;
+}
+.rectangle2{
+    width:1735px;
+    height:393px;
+    width: 100vw;
+    margin-top: 200px;
+    background:#D96251;
+}
+.about_rectangle2 {
+    display: block;
+    font-size: 16px;
+    margin-top: -200px;
+    margin-left: 705px;
+}
+.bad_girl {
+    display: block;
+    border-radius: 100px;
+    margin-top: -127px;
+    margin-left: 300px;
+    z-index: 2;
+}
+.text_about-bad-girl {
+    display: block;
+    /* border-radius: 70px 80px 80px 90px;
+    background-color: #fff; */
+    margin-left: 108px;
+    margin-top: -287px;
+    z-index: 1
+}
+.about_bad-girl_text {
+    display: block;
+    margin-left: 140px;
+    margin-top: -140px;
+}
+.about_bad-girl_text2 {
+    display: block;
+    font-size: 15px;
+    margin-top: 23px;
+    margin-left: 140px;
+}
+.rectangle27 {
+    margin-top: 300px;
+    
+}
+.rectangle27 {
+    margin-left: 267px;
+}
+.rectangle28 {
+    margin-left: 267px;
+}
+.mother_with_cild {
+    display: block;
+    margin-left: 370px;
+    margin-top: -560px;
+}
+.about_mother_with_cild {
+    display: block;
+    margin-left: 420px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    margin-top: -70px;
+}
+.boton2 {
+    position: relative;
+    left: 410px;
+    bottom: -40px;
+    width: 246px;
+    height: 50px;
+    padding: 17px;
+    background-color: chocolate;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 15px;
+}
+.mother_with_cild2{
+    margin-left: 1180px;
+    margin-top: -300px;
+}
+.about_mother_with_cild2{
+    display: block;
+    margin-left: 1220px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    margin-top: -150px;
+}
+.boton3 {
+    position: relative;
+    left: 1200px;
+    bottom: -40px;
+    width: 246px;
+    height: 50px;
+    padding: 17px;
+    background-color: chocolate;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 15px;
+}
+.foter {
+    background-image: url(../img/Subtract.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 169px;
+}
+#rectangle{  
+    width:320px;
+    height:55px;
+    background: #fff;
+    border: 2px solid #000;
+    margin-top: 100px;
+    margin-left: 631px;
+    border-radius: 10px;
+    padding: 0 0 0 -100px;
+}
+#rectangle2{  
+    width:320px;
+    height:55px;
+    margin-top: -60px;
+    margin-left: 971px;
+    border-radius: 10px;
+}
+.about_rectangle_subract {
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.about_rectangle_subract2 {
+    width:320px;
+    height:40px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+} 
+.about_rectangle_subract3 {
+    width:680px;
+    height:143px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-top: 100px;
+    margin-left: 620px;
+} 
+.more_header {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -950px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
 }
